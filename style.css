@@ -1,12 +1,22 @@
 body{
     background-color: black;
+    display: flow-root;
 }
 h1{
     color:whitesmoke;
+    border-color: whitesmoke;
+    border-radius: 100px;
+    border-width: 100px;
 
 }
 h2{
     color:whitesmoke;
+    border-color: rebeccapurple;
+  
+}
+#pre1
+{
+    color:aliceblue;
 }
 #p8{
     color:white;
@@ -39,5 +49,74 @@ p{
     color:blueviolet;
 }
 .even{
-    color:aquamarine;
+    color:whitesmoke;
 }
+#i1
+{
+    float:center ;
+    margin-bottom:10 px;
+    
+
+}
+#i2
+{
+    float:center;
+    margin-bottom:10 px;
+    
+
+}
+#i3
+{
+    float:center ;
+    margin-bottom:10 px;
+
+}
+#i4
+{
+    float:center ;
+    margin-bottom:10 px;
+    
+
+}
+#i5
+{
+    float:center ;
+    margin-bottom:10 px;
+    
+
+}
+#i6
+{
+    float:center ;
+    margin-bottom:10 px;
+   
+
+}
+#i7
+{
+    float:center ;
+    margin-bottom:10 px;
+
+}
+#b1{
+    color:aliceblue;
+    background-color: red;
+    margin-top: 100;
+    margin-bottom: 0;
+    margin-left:100;
+    margin-right:50px;
+    box-shadow: 3px 3px 5px;
+
+}
+#b2{
+    color:red;
+    background-color: aliceblue;
+    margin-top: 0;
+    margin-bottom: 100;
+    margin-left:100;
+    margin-right:50px;
+     box-shadow: 3px 3px 5px;
+     font-style: bold;
+}
+
+
