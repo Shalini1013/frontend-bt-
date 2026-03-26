@@ -1,0 +1,44 @@
+#box9
+{
+    background-color: orangered;
+    height:100px;
+    width:100px;
+    top:100px;
+    right:140px;
+    left:50px;
+    position:fixed;
+}
+#box10
+{
+    background-color: lemonchiffon;
+    height:100px;
+    width:100px;
+    top:150px;
+    right:50px;
+    left:100px;
+    bottom:100px;
+    position:fixed;
+}
+#box11
+{
+    background-color:gold;
+    height:250px;
+    width:200px;
+    top:450px;
+    right:140px;
+    left:350px;
+    bottom:200px;
+    position:sticky;
+}
+#box12
+{
+    background-color: black;
+    color:aliceblue;
+    height:100px;
+    width:100px;
+    top:490px;
+    right:150px;
+    left:400px;
+    bottom:100px;
+    position:sticky;
+}
