@@ -106,6 +106,10 @@ p{
     margin-left:100;
     margin-right:50px;
     box-shadow: 3px 3px 5px;
+    height:50px;
+    width:100px;
+    top:800px;
+    position:static;
 
 }
 #b2{
@@ -117,6 +121,18 @@ p{
     margin-right:50px;
      box-shadow: 3px 3px 5px;
      font-style: bold;
+     height:50px;
+     width:150px;
+     top:800px;
+     position:static;
+}
+#containers
+{
+    border:2px solid;
+    color:blueviolet;
+}
+#containers~ p{
+    background-color: red;
 }
 
 
