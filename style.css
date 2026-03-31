@@ -126,6 +126,63 @@ p{
      top:800px;
      position:static;
 }
+li:hover{
+    background-color: blueviolet;
+
+}
+li:not(:hover)
+{
+    background-color:red;
+}
+li:nth-child(7)
+{
+    background-color: black;
+}
+#t li::before{
+    content:"💜";
+}
+#b::after{
+    content:"🪭";
+}
+#h::after{
+    content:"🥷";
+}
+#a::after{
+    content:"🛸👽";
+}
+#f::after{
+    content:"🔥❤️‍🔥";
+}
+#tw::after{
+    content:"🐨🐹🐱🐿️🐣🐻🐰";
+}
+#no::after{
+    content:"🔔";
+}
+#s::after{
+    content:"🏊🏊‍♂️";
+}
+#m::after{
+    content:"🎠🎠";
+}
+#n::after{
+    content:"⚗️🧪";
+}
+#th::after{
+    content:"🙅‍♂️🙅‍♀️";
+}
+#l::after{
+    content:"🐋🐳🦁🐯";
+}
+#o::after{
+    content:"🌃🛌😴";
+}
+#p::after{
+    content:"🙏🙏";
+}
+#i::after{
+    content:"🌞⛱️🌅";
+}
 #containers
 {
     border:2px solid;
@@ -134,5 +191,19 @@ p{
 #containers~ p{
     background-color: red;
 }
-
-
+#pb::selection{
+ background-color: black;
+}
+#at:active{
+ color:red;
+}
+.pagination a.active{
+    background-color:red;
+    font-weight:bold;
+    border-radius:4px;
+}
+.pagination a:hover:not(:active){
+    background-color:blueviolet;
+    font-weight:bold;
+    border-radius:4px;
+}

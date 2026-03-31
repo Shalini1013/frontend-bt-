@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+}
+h1{
+    background-color: red;
+    color:whitesmoke;
+}
+h2{
+    color:whitesmoke;
+}
+p{
+    color:whitesmoke;
+}
+#p::selection{
+    background-color:red;
+}
+.pagination{
+    text-align: center;
+}
+.pagination a.active{
+    background-color:red;
+    font-weight:bold;
+    border-radius:4px;
+}
+.pagination a:hover:not(:active){
+    background-color:blueviolet;
+    font-weight:bold;
+    border-radius:4px;
+}
