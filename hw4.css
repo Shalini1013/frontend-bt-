@@ -1,0 +1,24 @@
+
+.gallery{
+    display:flex;
+    border:1px solid whitesmoke;
+    flex-wrap: wrap;
+    gap:30px;
+    justify-content: center;
+    
+   
+}
+.box .description{
+    padding:100px;
+    display:flex;
+}
+.box{
+    width:200px;
+    padding:20px;
+    display:flexbox;
+    
+}
+.container{
+    display: flex;
+    
+}
