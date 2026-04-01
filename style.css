@@ -55,48 +55,81 @@ p{
 {
     float:center ;
     margin-bottom:10 px;
+    animation-name:glow;
+    animation-duration: 20s;
     
 
+}
+@keyframes glow{
+    100%{box-shadow: 0px 0px 50px skyblue;}
 }
 #i2
 {
     float:center;
     margin-bottom:10 px;
+     animation-name:glow;
+    animation-duration: 20s;
     
 
+}
+@keyframes glow{
+    100%{box-shadow: 0px 0px 50px pink;}
 }
 #i3
 {
     float:center ;
     margin-bottom:10 px;
+     animation-name:glow;
+    animation-duration: 20s;
+    
 
+}@keyframes glow{
+    100%{box-shadow: 0px 0px 50px silver;}
 }
 #i4
 {
     float:center ;
     margin-bottom:10 px;
+     animation-name:glow;
+    animation-duration: 20s;
     
 
+} 
+@keyframes glow{
+    100%{box-shadow: 0px 0px 50px red;}
 }
 #i5
 {
     float:center ;
     margin-bottom:10 px;
+    animation-name:glow;
+    animation-duration: 20s;
     
 
+}
+@keyframes glow{
+    100%{box-shadow: 0px 0px 50px gold;}
 }
 #i6
 {
     float:center ;
     margin-bottom:10 px;
-   
+    animation-name:glow;
+    animation-duration: 20s;
 
+}
+@keyframes glow{
+    100%{box-shadow: 0px 0px 50px green;}
 }
 #i7
 {
     float:center ;
     margin-bottom:10 px;
-
+   animation-name:glow;
+    animation-duration: 20s;
+}
+@keyframes glow{
+    100%{box-shadow: 0px 0px 50px blueviolet;}
 }
 #b1{
     color:aliceblue;
@@ -105,12 +138,18 @@ p{
     margin-bottom: 0;
     margin-left:100;
     margin-right:50px;
-    box-shadow: 3px 3px 5px;
+    box-shadow: 3px 3px 5px whitesmoke;
     height:50px;
-    width:100px;
-    top:800px;
-    position:static;
+    width:150px;
+    top:50px;
+    position:relative;
+    animation-name: Leftside;
+    animation-duration: 10s;
 
+
+}
+@keyframes Leftside{
+    from{transform: translatex(400px);}
 }
 #b2{
     color:red;
@@ -119,12 +158,17 @@ p{
     margin-bottom: 100;
     margin-left:100;
     margin-right:50px;
-     box-shadow: 3px 3px 5px;
+     box-shadow: 3px 3px 5px red;
      font-style: bold;
      height:50px;
      width:150px;
-     top:800px;
-     position:static;
+     top:50px;
+     position:relative;
+     animation-name:Rightside;
+     animation-duration:10s;
+}
+@keyframes Rightside{
+    to{transform: translatex(400px);}
 }
 li:hover{
     background-color: blueviolet;
